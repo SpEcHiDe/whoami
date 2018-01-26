@@ -159,7 +159,7 @@ function convertStreams(videoBlob, audioBlob) {
   };
 }
 
-var h2 = document.querySelector('h2');
+var h2 = document.querySelector('#FinalOutPut');
 
 function PostBlob(blob) {
   h2.innerHTML = '<a href="' + URL.createObjectURL(blob) + '" target="_blank" download="Recorded Audio+Canvas File.mp4">Download Recorded Audio+Canvas file in MP4 container and play in VLC player!</a>';
